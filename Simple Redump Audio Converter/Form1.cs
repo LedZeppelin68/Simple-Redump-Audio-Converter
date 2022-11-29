@@ -84,6 +84,8 @@ namespace Simple_Redump_Audio_Converter
 
                 File.WriteAllText(Path.Combine(directory_wav, Path.GetFileName(cue_file)), cuesheet);
             }
+
+            MessageBox.Show("Complete");
         }
     }
 }
