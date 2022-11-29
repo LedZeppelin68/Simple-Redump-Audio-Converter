@@ -27,6 +27,9 @@ namespace Simple_Redump_Audio_Converter
         {
             string[] directories = ((string[])e.Data.GetData(DataFormats.FileDrop));
 
+            dataGridView1.Rows.Clear();
+            dataGridView1.Columns.Clear();
+
             DataGridViewTextBoxColumn FileColumn = new DataGridViewTextBoxColumn()
             {
                 HeaderText = "filename",

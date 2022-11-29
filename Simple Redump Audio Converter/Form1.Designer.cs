@@ -101,7 +101,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Simple Redump Audio Converter v2";
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form1_DragDrop);
             this.DragOver += new System.Windows.Forms.DragEventHandler(this.Form1_DragOver);
             this.tableLayoutPanel1.ResumeLayout(false);
